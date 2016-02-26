@@ -3,6 +3,9 @@
 ## Introduction
 This plugin updates the FASD native backend whenever you open a file, allowing you to easily select your most used files.
 
+## FZF integration
+Its in my fork of [fzf.vim](https://github.com/nhooyr/fzf.vim) for now. I'll move it here later. You can just copy the code.
+
 ## Settings
 ### g:fasd\_blacklisted\_paths
 Contains a list of regexps that are matched against the path If matched, the file isn't added to FASD.  
