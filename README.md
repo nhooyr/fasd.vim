@@ -4,12 +4,12 @@
 This plugin updates the FASD native backend whenever you open a file, allowing you to easily select your most used files.
 
 ## Settings
-`g:fasd_blacklisted_paths`  
+### g:fasd\_blacklisted\_paths
 Contains a list of regexps that are matched against the path If matched, the file isn't added to FASD.  
 By default it is empty.
 
 
-`g:fasd_blacklisted_filetypes`  
+### g:fasd\_blacklisted\_filetypes`
 Contains a list of blacklisted filetypes for FASD.  
 By default its set to
 
@@ -21,7 +21,7 @@ let g:fasd_blacklisted_filetypes = [
 ```
 
 
-`g:fasd_blacklisted_buftypes`  
+###g:fasd\_blacklisted\_buftypes`
 Contains a list of blacklisted buftypes.  
 By default it set to
 ```vim
