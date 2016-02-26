@@ -8,6 +8,7 @@ This plugin updates the FASD native backend whenever you open a file, allowing y
 Contains a list of regexps that are matched against the path If matched, the file isn't added to FASD.  
 By default it is empty.
 
+
 `g:fasd_blacklisted_filetypes`  
 Contains a list of blacklisted filetypes for FASD.  
 By default its set to
@@ -18,6 +19,7 @@ let g:fasd_blacklisted_filetypes = [
 	\ 'gitcommit',
 	\ ]
 ```
+
 
 `g:fasd_blacklisted_buftypes`  
 Contains a list of blacklisted buftypes.  
