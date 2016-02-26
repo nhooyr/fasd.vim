@@ -9,9 +9,9 @@ Contains a list of regexps that are matched against the path If matched, the fil
 By default it is empty.
 
 
-### g:fasd\_blacklisted\_filetypes`
+### g:fasd\_blacklisted\_filetypes
 Contains a list of blacklisted filetypes for FASD.  
-By default its set to
+By default it's set to
 
 ```vim
 let g:fasd_blacklisted_filetypes = [
@@ -21,9 +21,9 @@ let g:fasd_blacklisted_filetypes = [
 ```
 
 
-###g:fasd\_blacklisted\_buftypes`
+###g:fasd\_blacklisted\_buftypes
 Contains a list of blacklisted buftypes.  
-By default it set to
+By default it's set to
 ```vim
 let g:fasd_blacklisted_buftypes = [
       \ 'help',
