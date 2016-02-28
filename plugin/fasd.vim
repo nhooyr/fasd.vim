@@ -19,7 +19,7 @@ if !exists('g:fasd_blacklisted_buftypes')
         \ ]
 endif
 
-augroup fzf
+augroup _fasd
   autocmd!
   autocmd BufWinEnter * call fasd#Update()
 augroup END
@@ -42,7 +42,7 @@ function! fasd#Update()
     let cmd = ['fasd', '-A', path]
     if has('nvim')
       call jobstart(cmd)
-    elseif has('patch1274')
+    elseif has('job')
       call job_start(cmd)
     else
       call system(join(cmd, ' '))
