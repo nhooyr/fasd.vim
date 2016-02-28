@@ -29,6 +29,10 @@ Contains a list of blacklisted buftypes.
 By default it's set to
 ```vim
 let g:fasd_blacklisted_buftypes = [
-      \ 'help',
-      \ ]
+	\ 'help',
+	\ 'nofile',
+	\ 'nowrite',
+	\ 'quickfix',
+	\ 'terminal',
+	\ ]
 ```
