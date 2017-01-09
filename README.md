@@ -1,5 +1,9 @@
 # fasd.vim
 
+## DEPRECATED
+
+If you still want to do this see: https://github.com/nhooyr/dotfiles/blob/4605ab8a76dead31f09b2592838485e1a6445794/.config/nvim/init.vim#L70-L80
+
 ## Introduction
 This plugin updates the FASD native backend whenever you open a file, allowing you to easily select your most used files.
 
